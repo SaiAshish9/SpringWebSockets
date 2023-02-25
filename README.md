@@ -14,3 +14,15 @@ This is the main reason why websocket is preferred why websocket is preferred ov
 ```
 
 <img width="746" alt="Screenshot 2023-02-25 at 11 28 39 PM" src="https://user-images.githubusercontent.com/43849911/221372398-979dd39e-963f-4322-b66d-88a9b56c2726.png">
+
+```
+WebSocket is just a communication protocol. It doesn't know how to send messages to a particular user or topic. We need STOMP for these functionalities.
+
+STOMP => Streaming Text Oriented Messaging Protocol.
+
+It is a simple text based protocol, it allows STOMP clinets to talk with any message broker
+supporting the protocol.
+
+Spring provides default support for it but we can choose any other messaging protocol such as
+RabbitMQ or ActiveMQ.
+```
